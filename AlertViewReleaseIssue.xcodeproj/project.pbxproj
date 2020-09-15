@@ -13,6 +13,8 @@
 		396A699925105AA400774237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396A699825105AA400774237 /* Assets.xcassets */; };
 		396A699C25105AA400774237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396A699A25105AA400774237 /* LaunchScreen.storyboard */; };
 		396A69A725105AA400774237 /* AlertViewReleaseIssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A69A625105AA400774237 /* AlertViewReleaseIssueTests.swift */; };
+		396A69B525105C6600774237 /* DemoAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A69B425105C6600774237 /* DemoAlertController.swift */; };
+		396A69B825105D0B00774237 /* ReleaseIssueAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A69B725105D0B00774237 /* ReleaseIssueAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		396A69A225105AA400774237 /* AlertViewReleaseIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertViewReleaseIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		396A69A625105AA400774237 /* AlertViewReleaseIssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewReleaseIssueTests.swift; sourceTree = "<group>"; };
 		396A69A825105AA400774237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396A69B425105C6600774237 /* DemoAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAlertController.swift; sourceTree = "<group>"; };
+		396A69B725105D0B00774237 /* ReleaseIssueAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseIssueAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,10 @@
 		396A698E25105A9F00774237 /* AlertViewReleaseIssue */ = {
 			isa = PBXGroup;
 			children = (
+				396A69B225105C4200774237 /* Views */,
+				396A69B125105C3000774237 /* ViewControllers */,
 				396A698F25105A9F00774237 /* AppDelegate.swift */,
 				396A699125105A9F00774237 /* SceneDelegate.swift */,
-				396A699325105A9F00774237 /* ViewController.swift */,
 				396A699825105AA400774237 /* Assets.xcassets */,
 				396A699A25105AA400774237 /* LaunchScreen.storyboard */,
 				396A699D25105AA400774237 /* Info.plist */,
@@ -94,6 +99,23 @@
 				396A69A825105AA400774237 /* Info.plist */,
 			);
 			path = AlertViewReleaseIssueTests;
+			sourceTree = "<group>";
+		};
+		396A69B125105C3000774237 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				396A699325105A9F00774237 /* ViewController.swift */,
+				396A69B425105C6600774237 /* DemoAlertController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		396A69B225105C4200774237 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				396A69B725105D0B00774237 /* ReleaseIssueAlertView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				396A699425105A9F00774237 /* ViewController.swift in Sources */,
+				396A69B825105D0B00774237 /* ReleaseIssueAlertView.swift in Sources */,
+				396A69B525105C6600774237 /* DemoAlertController.swift in Sources */,
 				396A699025105A9F00774237 /* AppDelegate.swift in Sources */,
 				396A699225105A9F00774237 /* SceneDelegate.swift in Sources */,
 			);
